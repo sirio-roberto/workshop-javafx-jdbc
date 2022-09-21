@@ -6,5 +6,6 @@ module com.example.workshopjavafxjdbc {
     opens application to javafx.fxml;
     exports application;
     exports gui;
+    exports model.entities;
     opens gui to javafx.fxml;
 }
