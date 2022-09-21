@@ -5,4 +5,6 @@ module com.example.workshopjavafxjdbc {
 
     opens application to javafx.fxml;
     exports application;
+    exports gui;
+    opens gui to javafx.fxml;
 }
