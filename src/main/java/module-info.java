@@ -3,6 +3,6 @@ module com.example.workshopjavafxjdbc {
     requires javafx.fxml;
 
 
-    opens com.example.workshopjavafxjdbc to javafx.fxml;
-    exports com.example.workshopjavafxjdbc;
+    opens application to javafx.fxml;
+    exports application;
 }
